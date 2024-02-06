@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import { AiOutlineCloseCircle, AiOutlineCopy, AiOutlineLink, AiOutlineDownload, AiOutlineShareAlt, AiOutlineCloudSync } from 'react-icons/ai';
+import { AiOutlineCloseCircle, AiOutlineCopy, AiOutlineLink, AiOutlineDownload, AiOutlineShareAlt, AiOutlineCloudSync, AiOutlineGithub } from 'react-icons/ai';
 import { toast, ToastContainer } from 'react-toastify';
 import { saveAs } from 'file-saver';
 import { isMobile } from 'react-device-detect';
@@ -182,6 +182,16 @@ export default function Home() {
           </div>
         )}
       </div>
+
+      {/* GitHub Link */}
+      <Link
+        href="https://github.com/DemonMartin/knowunity-downloader"
+        rel='noreferrer noopener'
+        target='_blank'
+        className="mt-4 flex items-center space-x-2 text-gray-200 hover:text-gray-300"
+      >
+        <AiOutlineGithub size={25}/>
+      </Link>
     </main>
   );
 }
