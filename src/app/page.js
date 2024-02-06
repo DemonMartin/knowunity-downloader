@@ -71,7 +71,7 @@ export default function Home() {
   }
 
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen py-12 px-4 sm:px-6 lg:px-8 bg-none">
+    <main className="flex flex-col items-center justify-between min-h-screen py-12 px-4 sm:px-6 lg:px-8 bg-none">
       <ToastContainer
         position="top-center"
         autoClose={3000}
@@ -188,9 +188,9 @@ export default function Home() {
         href="https://github.com/DemonMartin/knowunity-downloader"
         rel='noreferrer noopener'
         target='_blank'
-        className="mt-4 flex items-center space-x-2 text-gray-200 hover:text-gray-300"
+        className="flex items-center justify-center mb-4 mt-4 space-x-2 text-gray-200 hover:text-gray-300"
       >
-        <AiOutlineGithub size={25}/>
+        <AiOutlineGithub size={25} />
       </Link>
     </main>
   );
