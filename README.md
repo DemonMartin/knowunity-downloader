@@ -22,4 +22,4 @@ npm run build && npm run start
 
 ## Live Demo
 
-For a live demo, visit the Cloudflare-hosted site at [https://knowunity.martin.tools/](https://knowunity.martin.tools/).
+For a live demo, visit the Vercel-hosted site at [https://knowunity.martin.tools/](https://knowunity.martin.tools/).
